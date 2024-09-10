@@ -1,0 +1,36 @@
+---
+title: "Test of Math in Raw HTML Table"
+---
+
+```{=html}
+<table class="my-special-table-class">
+    <thead>
+        <tr class="my-special-row-class">
+            <th>
+                Col 1
+            </th>
+            <th>
+                Col 2
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="my-special-row-class">
+            <td>
+                \(\sum_{n=0}^\infty \frac{1}{n^2}\) 
+            </td>
+            <td>
+               Cell 2 1
+            </td>
+        </tr>
+        <tr class="my-special-row-class">
+            <td>
+                Cell 1 2
+            </td>
+            <td>
+                Cell 2 2
+            </td>
+        </tr>
+    </tbody>
+</table>
+```
